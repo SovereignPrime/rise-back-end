@@ -23,7 +23,7 @@ import yaml from 'yaml';
 async function main() {
   console.log("Testing the RISE Wallet APIs...")
 
-  // Establish connection to the cluster (using the localhost cluster currently).
+  // Establish connection to the cluster (defaulting to the devnet endpoint currently).
   let connection = await establishConnection();
 
   console.log("\nGenerating random seedphrase and corresponding keypair...");
