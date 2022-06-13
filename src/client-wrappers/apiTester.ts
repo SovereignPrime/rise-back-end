@@ -45,7 +45,7 @@ async function main() {
 
   console.log("\nRecovering Keypair from seedphrase...");
 
-  let fromKeypair: Keypair; 
+  let fromKeypair: Keypair; //DUMMY CHANGE
 
   fromKeypair = await recoverKeypair(result[1]).catch((error: Error) => {
         throw new Error(error.message);
